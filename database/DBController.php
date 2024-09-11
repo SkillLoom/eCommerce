@@ -2,10 +2,10 @@
 
 class DBController{
     //database connection properties
-    protected $host = "localhost";
-    protected $user = "root";
-    protected $password = "";
-    protected $database = "shope";
+    protected $host = "us-cluster-east-01.k8s.cleardb.net";
+    protected $user = "bc96a7d3b04a8a";
+    protected $password = "95138c1f";
+    protected $database = "heroku_6cff8b9ab658646";
 
     //connrction property
     public $con = null;
